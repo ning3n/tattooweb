@@ -1,0 +1,148 @@
+body {
+  font-family: 'Reem Kufi', sans-serif;
+  background: #000;
+  color: rgb(255, 255, 255);
+}
+
+
+.navbar{
+  box-shadow: 2px 2px 5px rgb(255, 133, 33);
+  box-shadow: .125rem .125rem .3125rem rgb(255, 133, 33);
+  opacity: .9;
+  padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+}
+
+.navbar-darke a{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a:hover{
+  background: rgb(255, 133, 33);
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.no:hover{
+  background: none;
+}
+
+.navbar-toggler{
+  background-color: rgb(255, 133, 33);
+}
+
+.imageh{
+  max-height: 50px;
+}
+
+.bg-alv{
+  background: #000;
+  width: 100%;
+}
+
+/*
+Estilos Home
+*/
+
+.home{
+  background: url("../img/tattoo.jpg") center;
+  background-size: cover;
+  width: 100%;
+  min-height:500px;
+}
+
+.content {
+  color: rgb(255, 255, 255);
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.content a{
+  color: rgb(255, 255, 255);
+  font-family: 'Fredericka the Great', cursive;  
+}
+
+.home-text{
+  padding-top: 100px;
+  text-align: center;
+}
+
+/*
+
+Cierre estilos home
+
+*/
+
+/* Estilos address */
+
+.bg1{
+  background: rgb(51, 48, 48);
+}
+
+.bg2{
+  background: rgb(107, 107, 107);
+}
+
+/* Cierre estilos address */
+
+/* Galeria */
+
+.bg3{
+  background-color: #fff;
+  color: #000;
+}
+
+.img-alt{
+  min-height:260px;
+}
+/* Cierre galeria */
+
+/* Servicios */
+.bg4{
+  background: transparent url("../img/maquina.jpg") no-repeat center;
+}
+/* Cierre servicios */
+
+/* Estudio */
+.img1{
+  max-width: 400px;
+  max-height: 450px;
+}
+/* Cierre estudio */
+
+/* CITA */
+.bg5{
+  background: transparent url("../img/appoint.jpg") no-repeat center;
+  background-size: cover;
+  padding: 70px 20px;
+}
+/* CIERRE CITA */
+
+@media (min-width:64em){
+  .home{
+    background: transparent url("../img/tattoo.jpg") center;
+    background-size: cover;
+    width: 100%;
+    min-height:900px;
+  }
+
+  .home-text{
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .content {
+    color: rgb(255, 255, 255);
+    font-family: 'Fredericka the Great', cursive;
+  }
+
+  .content a{
+    color: rgb(255, 255, 255);
+    font-family: 'Fredericka the Great', cursive;  
+  }
+
+  .home h1{
+    font-size: 150px;
+  }
+}
